@@ -1,6 +1,6 @@
 {
-  "name": "video",
-  "version": "0.1.0",
+  "name": "OpMeet",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.7",
@@ -30,6 +30,9 @@
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
     "standard": "^14.3.3",
+  "engines": {
+    "node": "16.x"
+  }
     "xss": "^1.0.8"
   },
   "scripts": {
