@@ -31,9 +31,6 @@
     "socket.io-client": "^2.3.0",
     "standard": "^14.3.3",
     "xss": "^1.0.8",
-      "engines": {
-    "node": "16.x"
-  }
   },
   "scripts": {
     "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon app.js\" \"NODE_ENV=dev PORT=8000 react-scripts start\"",
